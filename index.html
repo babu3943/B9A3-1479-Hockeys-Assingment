@@ -2,10 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>MY Assignment 3 </title>
-</head>
-<body>
     
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  .font-manrope{
+      font-family: 'Manrope', sans-serif;
+  }
+  
+</style>
+</head>
+<body class="font-manrope">
+    <header class="container  mx-auto lg:px-24 px-8 my-8">
+<section>
+<div class="container mx-auto lg:px-24 px-8 my-8 ">
+    <div class="carousel w-full">
+      
+        <div id="slide1" class="carousel-item relative w-full rounded-2xl bg-no-repeat bg-[url(./images/1.png)] h-[100vh] bg-lightgray 0px 0px / 100% 100%">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full bg-no-repeat bg-[url(./images/3.png)] h-[100vh] bg-lightgray 0px 0px / 100% 100%">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full bg-no-repeat bg-[url(./images/1.png)] h-[100vh] bg-lightgray 0px 0px / 100% 100%">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+</div>
+
+</section>
+
+    </header>
+    <main>
+<div>
+ <h1 class="text-center text-4xl font-extrabold text-gray-950">Professional Hockeys Club</h1>
+ <p class="text-center text-base font-medium text-gray-950 mx-2">Professional ice hockey expanded across Canada and the United States and eventually to many other countries. <br>There are major leagues around the world.Professional hockey developed in the United States and Canada around the turn of the 20th century. </p>
+</div>
+<div class="flex justify-items-center justify-center py-20 gap-12">
+    
+  <div class="radial-progress text-primary " style="--value:87;" role="progressbar">87%</div>
+  <div class="radial-progress text-secondary " style="--value:95;" role="progressbar">95% </div>
+  <div class="radial-progress text-accent" style="--value:90;" role="progressbar">90%</div>
+  <div class="radial-progress  " style="--value:80;" role="progressbar">80%</div>
+</div>
+<section>
+  <div>
+    <div class="mx-auto lg:px-24 px-8 my-8 bg-no-repeat h-96" style="background-image: url(Images/2.png)">
+          <h1 class=" text-5xl font-extrabold text-zinc-50 py-20 ">Junior Program</h1>
+          <p class="text-5xlfont-bold w-2/6 pt-1.5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+    </main>
+    <footer>
+
+
+    </footer>
 </body>
 </html>
